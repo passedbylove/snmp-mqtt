@@ -17,6 +17,8 @@ Options:
   --max_oids=<count>		      Max allow polling count of oid[default: 60]
   -h, --help                          Show this screen.
   -v, --version                       Show version.
+
+  eg. ./snmp-mqtt-mipsel --server=8.8.8.8 --port=1883 --endpoints_map=openwrt-endpoints.json --max_oids=65535
 ```
 
 An example endpoints.json file:

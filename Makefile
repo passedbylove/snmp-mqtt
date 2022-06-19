@@ -32,6 +32,10 @@ linux: build
 	@echo Building Linux binary
 	@env CC=x86_64-linux-musl-gcc GOOS=linux GOARCH=amd64 CGO_ENABLED=1 go build -ldflags "-linkmode external -extldflags -static" -o build/snmp-mqtt
 
+mipsel: build
+	@echo Building mipsel binary
+	@env GOOS=linux GOARCH=mipsle go build -ldflags "-s -w" -o build/snmp-mqtt-mipsel
+	
 raspi: build
 	@echo Building Rasperry Pi Linux binary
 	@env GOOS=linux GOARCH=arm GOARM=6 CGO_ENABLED=0 go build -o build/snmp-mqtt

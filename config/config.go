@@ -39,6 +39,9 @@ var (
 
 	// Interval is the poll interval in seconds
 	Interval int
+
+	//Max allow polling count of oid
+	MaxOids int
 )
 
 // ConnectionString returns the MQTT connection string

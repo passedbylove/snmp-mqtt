@@ -1,0 +1,275 @@
+{
+  "snmpEndpoints": [
+    {
+      "endpoint": "192.168.123.1",
+      "community": "public",
+      "oidTopics": [
+        {
+          "oid" :".1.3.6.1.2.1.1.1.0",
+          "topic": "openwrt/os/descr"
+        },
+        {
+          "oid": ".1.3.6.1.4.1.8072.3.2.10",
+          "topic": "openwrt/os/sysObjectID"
+        },
+        {
+          "oid": ".1.3.6.1.2.1.1.3.0",
+          "topic": "openwrt/os/uptime"
+        },
+        {
+          "oid": ".1.3.6.1.2.1.1.5.0",
+          "topic":"openwrt/os/hostname"
+        },
+        {
+	  "oid": ".1.3.6.1.2.1.2.2.1.6.15",
+	  "topic": "openwrt/enternet/wan/phyAddress"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.2.15",
+	  "topic": "openwrt/enternet/wan/iFName"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.7.15",
+	  "topic": "openwrt/enternet/wan/status"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.9.15",
+	  "topic": "openwrt/enternet/wan/lastChange"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.10.15",
+	  "topic": "openwrt/enternet/wan/bytesIn"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.14.15",
+	  "topic": "openwrt/enternet/wan/inErrors"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.16.15",
+	  "topic": "openwrt/enternet/wan/bytesOut"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.20.15",
+	  "topic": "openwrt/enternet/wan/outErrors"
+	},
+	 {
+	  "oid": ".1.3.6.1.2.1.2.2.1.6.5",
+	  "topic": "openwrt/enternet/lan/phyAddress"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.2.5",
+	  "topic": "openwrt/enternet/lan/iFName"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.7.5",
+	  "topic": "openwrt/enternet/lan/status"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.9.5",
+	  "topic": "openwrt/enternet/lan/lastChange"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.10.5",
+	  "topic": "openwrt/enternet/lan/bytesIn"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.14.5",
+	  "topic": "openwrt/enternet/lan/inErrors"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.16.5",
+	  "topic": "openwrt/enternet/lan/bytesOut"
+	},
+	{
+	  "oid": ".1.3.6.1.2.1.2.2.1.20.5",
+	  "topic": "openwrt/enternet/lan/outErrors"
+	},
+        {
+          "oid": ".1.3.6.1.2.1.25.2.2.0",
+          "topic":"openwrt/mem/total"
+        },
+        
+         {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.1",
+          "topic":"openwrt/storage/0"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.1",
+          "topic":"openwrt/storage/0/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.1",
+          "topic":"openwrt/storage/0/used"
+        },
+         {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.3",
+          "topic":"openwrt/storage/1"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.3",
+          "topic":"openwrt/storage/1/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.3",
+          "topic":"openwrt/storage/1/used"
+        },   
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.6",
+          "topic":"openwrt/storage/2"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.6",
+          "topic":"openwrt/storage/2/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.6",
+          "topic":"openwrt/storage/2/used"
+        },
+         {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.7",
+          "topic":"openwrt/storage/3"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.7",
+          "topic":"openwrt/storage/3/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.7",
+          "topic":"openwrt/storage/3/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.8",
+          "topic":"openwrt/storage/4"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.8",
+          "topic":"openwrt/storage/4/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.8",
+          "topic":"openwrt/storage/4/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.10",
+          "topic":"openwrt/storage/5"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.10",
+          "topic":"openwrt/storage/5/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.10",
+          "topic":"openwrt/storage/5/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.11",
+          "topic":"openwrt/storage/6"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.11",
+          "topic":"openwrt/storage/6/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.11",
+          "topic":"openwrt/storage/6/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.31",
+          "topic":"openwrt/storage/7"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.31",
+          "topic":"openwrt/storage/7/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.31",
+          "topic":"openwrt/storage/7/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.32",
+          "topic":"openwrt/storage/8"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.32",
+          "topic":"openwrt/storage/8/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.32",
+          "topic":"openwrt/storage/8/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.33",
+          "topic":"openwrt/storage/9"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.33",
+          "topic":"openwrt/storage/9/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.33",
+          "topic":"openwrt/storage/9/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.34",
+          "topic":"openwrt/storage/10"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.34",
+          "topic":"openwrt/storage/10/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.34",
+          "topic":"openwrt/storage/10/used"
+        },
+	{
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.35",
+          "topic":"openwrt/storage/11"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.35",
+          "topic":"openwrt/storage/11/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.35",
+          "topic":"openwrt/storage/11/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.36",
+          "topic":"openwrt/storage/12"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.36",
+          "topic":"openwrt/storage/12/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.36",
+          "topic":"openwrt/storage/12/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.37",
+          "topic":"openwrt/storage/13"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.37",
+          "topic":"openwrt/storage/13/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.37",
+          "topic":"openwrt/storage/13/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.38",
+          "topic":"openwrt/storage/14"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.38",
+          "topic":"openwrt/storage/14/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.38",
+          "topic":"openwrt/storage/14/used"
+        }
+      ]
+    }
+ ]
+}

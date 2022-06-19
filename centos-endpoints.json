@@ -1,0 +1,185 @@
+{
+  "snmpEndpoints": [
+    {
+      "endpoint": "127.0.0.1",
+      "community": "da2qia1ku5",
+      "oidTopics": [
+        {
+          "oid": ".1.3.6.1.2.1.2.2.1.10.2",
+          "topic": "centos/router/bytesIn"
+        },
+        {
+          "oid": ".1.3.6.1.2.1.2.2.1.16.2",
+          "topic": "centos/router/bytesOut"
+        },
+        {
+          "oid" :".1.3.6.1.2.1.1.1.0",
+          "topic": "centos/os/descr"
+        },
+        {
+          "oid": ".1.3.6.1.2.1.1.3.0",
+          "topic": "centos/os/uptime"
+        },
+        {
+          "oid": ".1.3.6.1.2.1.1.5.0",
+          "topic":"centos/os/hostname"
+        },
+		{
+		  "oid": ".1.3.6.1.2.1.55.1.5.1.8.2",
+		  "topic": "centos/enternet/phyAddress"
+		},
+		{
+		  "oid": ".1.3.6.1.2.1.55.1.5.1.2.2",
+		  "topic": "centos/enternet/iFName"
+		},
+		{
+		  "oid": ".1.3.6.1.2.1.25.3.2.1.3.196608",
+		  "topic": "centos/processor/descr"
+		},
+        {
+          "oid": ".1.3.6.1.4.1.2021.10.1.3.1",
+          "topic":"centos/os/load1"
+        },
+		{
+          "oid": ".1.3.6.1.4.1.2021.10.1.3.2",
+          "topic":"centos/os/load5"
+        },
+		{
+          "oid": ".1.3.6.1.4.1.2021.10.1.3.3",
+          "topic":"centos/os/load15"
+        },
+        {
+          "oid": ".1.3.6.1.2.1.25.2.2.0",
+          "topic":"centos/mem/total"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.40",
+          "topic":"centos/storage/0"
+        }
+        ,
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.40",
+          "topic":"centos/storage/0/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.40",
+          "topic":"centos/storage/0/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.39",
+          "topic":"centos/storage/1"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.39",
+          "topic":"centos/storage/1/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.39",
+          "topic":"centos/storage/1/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.37",
+          "topic":"centos/storage/2"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.37",
+          "topic":"centos/storage/2/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.37",
+          "topic":"centos/storage/2/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.32",
+          "topic":"centos/storage/3"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.32",
+          "topic":"centos/storage/3/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.32",
+          "topic":"centos/storage/3/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.10",
+          "topic":"centos/storage/4"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.10",
+          "topic":"centos/storage/4/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.10",
+          "topic":"centos/storage/4/used"
+        },{
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.8",
+          "topic":"centos/storage/5"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.8",
+          "topic":"centos/storage/5/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.8",
+          "topic":"centos/storage/5/used"
+        },{
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.7",
+          "topic":"centos/storage/6"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.7",
+          "topic":"centos/storage/6/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.7",
+          "topic":"centos/storage/6/used"
+        },{
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.6",
+          "topic":"centos/storage/7"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.6",
+          "topic":"centos/storage/7/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.6",
+          "topic":"centos/storage/7/used"
+        },{
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.3",
+          "topic":"centos/storage/8"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.3",
+          "topic":"centos/storage/8/size"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.3",
+          "topic":"centos/storage/8/used"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.3",
+          "topic":"centos/storage/9/size"
+        },{
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.1",
+          "topic":"centos/storage/9"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.1",
+          "topic":"centos/storage/9/used"
+        },
+		{
+          "oid":".1.3.6.1.2.1.25.2.3.1.5.59",
+          "topic":"centos/storage/10/size"
+        },{
+          "oid":".1.3.6.1.2.1.25.2.3.1.3.59",
+          "topic":"centos/storage/10"
+        },
+        {
+          "oid":".1.3.6.1.2.1.25.2.3.1.6.59",
+          "topic":"centos/storage/10/used"
+        }
+      ]
+    }
+ ]
+}

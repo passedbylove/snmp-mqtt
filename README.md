@@ -14,6 +14,7 @@ Options:
   --topic=<topic>                     MQTT topic prefix [default: snmp]
   --clientid=<clientid>               MQTT client identifier [default: snmp]
   --interval=<interval>               Poll interval (seconds) [default: 5]
+  --max_oids=<count>		      Max allow polling count of oid[default: 60]
   -h, --help                          Show this screen.
   -v, --version                       Show version.
 ```
@@ -39,3 +40,6 @@ An example endpoints.json file:
  ]
 }
 ```
+# Mib Browser
+- [IReasoning Mib Browser](http://www.ireasoning.com)
+- [MG-SOFT Mib Browser](https://www.mg-soft.com)

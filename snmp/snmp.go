@@ -9,7 +9,7 @@ import (
 
 	"github.com/dchote/snmp-mqtt/config"
 
-	"github.com/eclipse/paho.mqtt.golang"
+	mqtt "github.com/eclipse/paho.mqtt.golang"
 	"github.com/soniah/gosnmp"
 )
 
@@ -43,6 +43,8 @@ func Init() {
 				snmp.Port = 161
 				snmp.Version = gosnmp.Version2c
 				snmp.Community = endpoint.Community
+
+				snmp.MaxOids = config.MaxOids
 
 				snmp.Timeout = time.Duration(5 * time.Second)
 				err := snmp.Connect()

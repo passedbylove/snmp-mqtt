@@ -15,7 +15,7 @@ import (
 var exitChan = make(chan int)
 
 // VERSION beause...
-const VERSION = "0.0.1"
+const VERSION = "0.0.2"
 
 func cliArguments() {
 	usage := `
@@ -27,6 +27,7 @@ Options:
   --port=<port>                       MQTT server port [default: 1883]
   --clientid=<clientid>               MQTT client identifier [default: snmp]
   --interval=<interval>               Poll interval (seconds) [default: 5]
+  --max_oids=<count>		      Max allow polling count of oid[default: 60]
   -h, --help                          Show this screen.
   -v, --version                       Show version.
 `
@@ -43,8 +44,9 @@ Options:
 	config.Port, _ = args.Int("--port")
 	config.ClientID, _ = args.String("--clientid")
 	config.Interval, _ = args.Int("--interval")
+	config.MaxOids, _ = args.Int("--max_oids")
 
-	log.Printf("server: %s, port: %d, client identifier: %s, poll interval: %d", config.Server, config.Port, config.ClientID, config.Interval)
+	log.Printf("server: %s, port: %d, client identifier: %s, poll interval: %d max oids: %d", config.Server, config.Port, config.ClientID, config.Interval, config.MaxOids)
 }
 
 // sigChannelListen basic handlers for inbound signals
